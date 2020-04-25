@@ -39,7 +39,7 @@ function mousePressed() {
 function draw() {
     // Draw all the elements including the slider that 
      
-    background(255);
+    background("pink");
     // This is the value of your gravity. You can optionally show it to the viewer.
     var fVal = gSlider.value(50,100);
    Engine.update(engine);
